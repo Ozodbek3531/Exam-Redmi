@@ -1,0 +1,1044 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(245, 243, 238);
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background: #fff;
+    z-index: 4;
+}
+nav img{
+    width: 28px;
+    height: 28px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.about,
+.contact,
+.home{
+    width: 100%;
+    height: 0;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background: rgb(240, 237, 237);
+    transition: .3s;
+    overflow: hidden;
+}
+.home h2{
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+}
+.about__card i{
+    font-size: 35px;
+    color: #444;
+}
+.about__container{
+    display: flex;
+    margin-left: 13.5%;
+}
+.about__card{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.about__card p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: -8px;
+    text-align: center;
+}
+
+.collection{
+    display: flex;
+    margin-top: 18px;
+}
+.item{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.orab{
+    display: flex;
+    margin-left: 47%;
+    margin-top: 18px;
+
+}
+.ilarga{
+    margin-left: 30px;
+}
+
+.orab i{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #777;
+}
+.orab a{
+    text-decoration: none;
+    color: #333;
+    
+}
+.orab a:hover{
+    text-decoration: underline 1.5px solid coral;
+    cursor: pointer;
+}
+.collection li:hover{
+    text-decoration: underline 1.5px solid coral;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    height: 70vh;
+    background: url("./redmi.webp") no-repeat center/cover;
+}
+.bitta{
+    width: 30%;
+    margin-left: 18%;
+    margin-top: 13%;
+}
+main p{
+    margin-left: 18%;
+    font-size: 1.7vw;
+    margin-top: 10px;
+}
+.bar{
+    width: 12%;
+    height: 40px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 18%;
+    margin-top: 25px;
+}
+.bar:hover{
+    cursor: pointer;
+    background: #333;
+}
+main:hover{
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    height: 70vh;
+    background: url("./d59030f71cc8b12a24b2f2a56de78a2e.webp") no-repeat center/cover;
+}
+.i{
+    margin-left: 58%;
+}
+.main p{
+    margin-left: 58%;
+    font-size: 1.7vw;
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.card{
+    width: 47%;
+    height: 100%;
+    margin: auto;
+    background: url("./tel1.webp") no-repeat center/ cover;
+}
+.ir{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.card p,
+.card1 p {
+    text-align: center;
+    margin-top: 15px;
+}
+.r{
+    color: coral;
+}
+.container,
+.conatiner2:hover{
+    cursor: pointer;
+}
+.card1{
+    width: 46%;
+    height: 100%;
+    margin: auto;
+    background: url("./televizor.webp") no-repeat center/ cover;
+}
+.container2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.cards{
+    width: 47%;
+    height: 100%;
+    margin: auto;
+    background: url("./soat.png") no-repeat center/cover;
+}
+.cards1{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.cardlar{
+    width: 47%;
+    height: 100%;
+    background: url("./quloqchin.webp") no-repeat center/cover;
+    margin-left: 10px;
+}
+.cardlar1{
+    width: 50%;
+    height: 100%;
+    background: url("./tel1.webp") no-repeat center/cover;
+    margin-left: 15px;
+}
+.hash{
+    margin-left: 18%;
+    margin-top: 40px;
+}
+.y{
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.tt{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.rrr{
+    font-size: 28px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.r:hover{
+    cursor: pointer;
+    text-decoration: underline 1px solid coral;
+}
+.p{
+    margin-left: 34px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.v{
+    margin-left: 35%;
+    margin-top: 15px;
+}
+.ad{
+    margin-left: 23%;
+}
+
+
+footer{
+    width: 100%;
+    height: 95vh;
+    background: #111;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer__card{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 50px;
+
+}
+.footer__card1{
+    width: 74%;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.er{
+    width: 20%;
+}
+
+.vav{
+    width: 100%;
+}
+.footer__card__cards{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.footer__card__cards h4{
+    color: #fff;
+}
+.footer__card__cards p{
+    color: gray;
+}
+.footer__card__cards p:hover{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: underline 1px solid #fff;
+}
+.h4{
+    margin-top: 40px;
+}
+
+
+
+.footer__card{
+    display: block;
+    margin-left: -10px;
+}
+.footer__card h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.footer__card i{
+    width: 30px;
+    height: 30px;
+    background: gray;
+    border-radius: 35%;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    color: #111;
+    margin-right: 10px;
+}
+
+
+.footer__card i:hover{
+    background: #fff;
+    transition: .3s;
+}
+.er input{
+    height: 45px;
+    width: 110%;
+    border: 1px solid rgb(252, 252, 252);
+    outline: none;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.vav{
+    display: flex;
+}
+.vav h4{
+    margin-left: 50px;
+}
+.global{
+    margin-left: 32%;
+    color: #fff;
+    font-size: 17px;
+}
+
+hr{
+    height: 0;
+    width: 90%;
+    margin-left: 30px;
+}
+.vav i{
+    margin-top: 0px;
+    background: transparent;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+
+/* bagi discoverniki
+
+*/
+
+.sidebar__collection{
+    display: flex;
+    margin-left: 21%;
+    margin-top: 40px;
+}
+.sidebar__item{
+    list-style: none;
+    margin-left: 40px;
+    font-weight: 700;
+}
+.coral{
+    color: coral;
+}
+.sidebar2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.carusel{
+    width: 50px;
+    border: none;
+    font-size: 30px;
+    color: #777;
+    background: transparent;
+}
+.sidebar2__btn{
+    width: 80px;
+    height: 45px;
+    border: none;
+    background: coral;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: -200px;
+}
+.inp{
+    width: 35%;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+
+.carousel{
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+.carousel__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: .5s;
+    transform: translateX(-00%);
+}
+.carousel__card{
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+}
+.carousel__card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prev,
+.next{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+}
+.prev{
+    left: 20px;
+}
+.next{
+    right: 20px;
+}
+.discover__container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+.discover__card{
+    width: 47%;
+    height: 68vh;
+    margin: auto;
+    overflow: hidden;
+}
+.discover__card p{
+    margin-left: 25px;
+}
+.discover__card h1{
+    margin: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.discover__card img{
+    width: 100%;
+    height: 70%;
+}
+.discover__card i{
+    margin-left: 68%;
+}
+.card__orab{
+    display: flex;
+}
+
+
+
+
+/* 
+Support
+*/
+.support__h2{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.support__inp{
+    width: 40%;
+    height: 40px;
+    border: none;
+    outline: 1px solid coral;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-left: 27%;
+    margin-top: 30px;
+}
+.support__p{
+    margin-left: 30%;
+    margin-top: 30px;
+    color: #ddd;
+}
+.support__p:hover{
+    cursor: pointer;
+    text-decoration: underline 1px solid #ddd;
+}
+.support__container{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.support__card{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.support__card i{
+    color: #111;
+    font-size: 30px;
+}
+.support__card p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.support__container:hover{
+    cursor: pointer;
+}
+.support__main{
+    margin: auto;
+    margin-top: 50px;
+}
+.support__main__card{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    margin: auto;
+}
+.support__main__card__card{
+    width: 45%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.support__main__card__card img{
+    width: 100%;
+    height: 100%;
+}
+.support__main__card__card button{
+    width: 23%;
+    height: 28px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 1.5px solid green;
+    color: green;
+    border-radius: 7px;
+}
+.support__main__card__card button:hover{
+    cursor: pointer;
+    background: green;
+    color: #ddd;
+    transition: 0.3s;
+}
+.support__main__card__card h2{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.support__main__card__card p{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 18px;
+    color: #555;
+}
+.sup__container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 9%;
+}
+.sup__card{
+    width: 23.6%;
+    height: 30vh;
+    margin-top: 40px;
+    margin-top: 100px;
+    margin-left: 15px;
+    background: #fff;
+    transition: .3s;
+}
+.sup__card:hover{
+    cursor: pointer;
+    transition: .3s;
+    transform: scale(.9);
+}
+.sup__card h4{
+    text-align: center;
+    margin-top: 30px;
+}
+.sup__card p{
+    color: #555;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+.sup__card i{
+    margin: auto;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.support{
+    width: 80%;
+    height: 53vh;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+}
+.support h2{
+    padding: 30px 0px 0px 50px;
+}
+.support p{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #777;
+    transition: .3s;
+}
+.support p:hover{
+    cursor: pointer;
+    color: #111;
+    transition: .3s;
+}
+.sup_container{
+    width: 80%;
+    margin: auto;
+}
+.supp__card1{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100%;
+    background: #fff;
+    margin-top: 30px;
+}
+.supp__card1 h2{
+    margin-left: 60px;
+    margin-top: 70px;
+}
+.supp__card1 img{
+    width: 230px;
+    height: 200px;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+.supp__card{
+    display: flex;
+    margin-top: 30px;
+}
+.supp{
+    width: 48%;
+    height: 30vh;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.va{
+    margin-left: 50px;
+}
+.supp h2{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.supp img{
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1334px){
+    .carousel{
+        display: none;
+    }
+    footer{
+        height: 120vh;
+    }
+    .support{
+        height: 70vh;
+    }
+    .sup__card{
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 970px){
+    .support__p{
+        margin-left: 25%;
+    }
+    .card__orab{
+        display: none;
+    }
+    .cards{
+        width: 70%;
+        height: 150%;
+    }
+    .cards1{
+        width: 70%;
+        margin-top: 30px;
+    }
+    li{
+        width: 65px;
+    }
+    .orab{
+        margin-left: 20%;
+    }
+    footer{
+        height: 140vh;
+    }
+    .ex{
+        display: none;
+    }
+    .container2{
+        display: none;
+    }
+}
+@media screen and (max-width: 850px){
+    .supp__card{
+        width: 100%;
+    }
+    .supp{
+        display: none;
+    }
+    .support__main__card__card button{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .sup__card{
+        width: 40%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .support__main__card__card h2{
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .support__main__card__card p{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .support__p{
+        width: 40%;
+        margin-left: 27%;
+        text-align: center;
+    }
+    .cards1{
+        display: none;
+    }
+    footer{
+        height: 150vh;
+    }
+    .footer__card1{
+        width: 100%;
+    }
+    .er input{
+        width: 90%;
+    }
+    footer{
+        height: 190vh;
+    }
+    .er{
+        width: 50%;
+        margin-left: 10%;
+    }
+    .support__main__card{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 720px){
+    .support__main__card__card button{
+        margin-left: 20px;
+        width: 30%;
+    }
+    .support{
+        height: 80vh;
+    }
+    .discover__card{
+        width: 70%;
+    }
+    .collection,
+    .sidebar__collection,
+    .sidebar2
+    {
+        display: none;
+    }
+    
+    .orab{
+        margin-left: 60%;
+    }
+
+    .cards1{
+        width: 90%;
+        margin-top: 30px;
+    }
+    a{
+        font-size: 50px;
+    }
+    .orab{
+        display: none;
+    }
+
+    .main{
+        width: 100%;
+        height: 100vh;
+        background: url("./d59030f71cc8b12a24b2f2a56de78a2e.webp") no-repeat center;
+    }
+    .bar{
+        width: 18%;
+    }
+    .footer__card1{
+        display: none;
+    }
+
+    .er{
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    input{
+        width: 95%;
+        height: 25px;
+    }
+    .footer__card{
+        margin-left: 20px;
+    }
+    .er i{
+        margin-right: 30px;
+    }
+    footer{
+        height: 70vh;
+    }
+    .vav h4{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .ex{
+        color: #ddd;
+    }
+    .global{
+        margin-left: 50%;
+    }
+    .support__inp{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .support__h2{
+        margin-left: 36%;
+    }
+   
+}
+@media screen and (max-width: 500px){
+    .sup__card{
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .support__card{
+        display: none;
+    }
+    .supp__card1 h2{
+        font-size: 15px;
+    }
+    .supp__card1 img{
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+    }
+    .support{
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .support__main__card__card p{
+        display: none;
+    }
+    .support__main__card__card button{
+        width: 40%;
+    }
+    .support__inp{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .support__h2{
+        margin-left: 30%;
+    }
+    .orab li,a{
+        display: none;
+    }
+    .orab{
+        margin-left: 60%;
+    }
+    .orab i{
+        font-size: 18px;
+    }
+    .bitta{
+        width: 190px;
+    }
+    main p{
+        font-size: 18px
+    }
+    main button{
+        font-size: 10px;
+        width: 140px;
+    }
+    .cardlar,.cardlar1{
+        display: none;
+        height: 0;
+    }
+    .cards,.cards1{
+        width: 100%;
+    }
+    .orab{
+        display: none;
+    }
+    .hash{
+        font-size: 19px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .y{
+        width: 80%;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        margin-left: 14%;
+    }
+    .bitta{
+        width: 40%;
+    }
+    .card{
+        width: 90%;
+        height: 100%;
+    }
+    .card1{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .container2{
+        width: 540px;
+        height: 50vh;
+        margin-top: 330px;
+        margin-left: -60px;
+    }
+
+    .cards{
+        display: none;
+
+    }
+
+    .global{
+        width: 30%;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .vav h4{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .support__p{
+        display: none;
+    }
+    .support__card{
+        display: none;
+    }
+    .support__main__card__card button{
+        width: 50%;
+    }
+    .support__main__card__card h2{
+        font-size: 15px;
+        width: 100%;
+    }
+    .support__h2{
+        margin-left: 25%;
+    }
+}
+
