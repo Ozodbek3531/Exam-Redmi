@@ -1021,6 +1021,9 @@ Support
     .vav h4{
         display: none;
     }
+    footer{
+        margin-top: 500px;
+    }
 
 }
 @media screen and (max-width: 400px){
